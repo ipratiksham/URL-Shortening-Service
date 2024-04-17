@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f5264376-8f39-4351-9c09-b3bc82bb98ad",
+		"name": "URL Shortening Service",
+		"description": "Few test cases to check working of URLShorteningService.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32625452"
+	},
+	"item": [
+		{
+			"name": "Generate Short Url",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://github.com/ipratiksham/urlshorteningservice\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/generate"
+			},
+			"response": []
+		},
+		{
+			"name": "Get result using short Url",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/85985c4f"
+			},
+			"response": []
+		}
+	]
+}
