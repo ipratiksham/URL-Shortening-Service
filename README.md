@@ -1,1 +1,1 @@
-The project is designed using spring MVC framework to convert a long URL to a short URL.
+The project is designed using spring MVC framework to convert a long URL to a short URL. The long url and its short url 8 digit random is getting stored in the H2 database. This short URL will get deactivated after 2 minutes, which can be modified to any time limit according to need.
